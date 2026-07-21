@@ -174,23 +174,29 @@ The AI pipeline converts raw meeting conversations into structured business inte
 ```mermaid
 flowchart LR
 
-Transcript
+    A["📄 Raw WebVTT Transcript"]
+    B["🧹 Transcript Cleaning"]
+    C["👤 Speaker Extraction"]
+    D["📝 Transcript Aggregation"]
+    E["🧠 Prompt Builder"]
+    F["🤖 Grok-2 Latest"]
+    G["📦 Structured JSON"]
+    H["💾 SQLite Database"]
+    I["🌐 REST API Response"]
 
---> Cleaning
+    A --> B --> C --> D --> E --> F --> G --> H --> I
 
---> Speaker Extraction
+    classDef source fill:#D6EAF8,stroke:#1F618D,color:#000;
+    classDef process fill:#FEF9E7,stroke:#B7950B,color:#000;
+    classDef ai fill:#FADBD8,stroke:#C0392B,color:#000;
+    classDef db fill:#D5F5E3,stroke:#1E8449,color:#000;
+    classDef api fill:#E8DAEF,stroke:#7D3C98,color:#000;
 
---> Aggregation
-
---> Prompt Engineering
-
---> Grok LLM
-
---> Structured JSON
-
---> Database
-
---> API Response
+    class A source;
+    class B,C,D,E process;
+    class F ai;
+    class G,H db;
+    class I api;
 ```
 
 ---
