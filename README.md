@@ -953,7 +953,7 @@ AI & Backend Engineer
 
 GitHub: https://github.com/amrit-kaur11
 
-LinkedIn: *(Add your LinkedIn profile URL here)*
+LinkedIn: www.linkedin.com/in/amrit-kaur-a31b50251
 
 ---
 
