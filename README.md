@@ -27,6 +27,16 @@ Backend Engineering • AI Engineering • FastAPI • Event-Driven Systems • 
 
 ---
 
+## 🚀 Live Demo
+
+[![Live Backend](https://img.shields.io/badge/Backend-Live-success?style=for-the-badge&logo=render)](https://zoom-meeting-intelligence.onrender.com)
+
+[![Swagger Docs](https://img.shields.io/badge/API-Swagger%20Docs-85EA2D?style=for-the-badge&logo=swagger)](https://zoom-meeting-intelligence.onrender.com/docs)
+
+[![OpenAPI](https://img.shields.io/badge/OpenAPI-JSON-blue?style=for-the-badge)](https://zoom-meeting-intelligence.onrender.com/openapi.json)
+
+> **Note:** This application is deployed on Render's free tier. The first request may take **30–60 seconds** while the service wakes up.
+
 # 📌 Overview
 
 AI Meeting Intelligence Platform is an **AI-powered backend system** that automatically processes Zoom webhook events, parses meeting transcripts, and generates structured meeting intelligence using Large Language Models (LLMs).
